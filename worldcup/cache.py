@@ -8,8 +8,17 @@ from worldcup.scrape import SOURCE_URL, scrape_matches
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
-CACHE_FILE = DATA_DIR / "matches.json"
+BUNDLED_CACHE_FILE = DATA_DIR / "matches.json"
 DEFAULT_TTL_SECONDS = 60 * 60 * 3
+
+
+def _runtime_cache_file():
+    configured = os.getenv("WORLD_CUP_CACHE_FILE")
+    if configured:
+        return Path(configured)
+    if os.getenv("VERCEL"):
+        return Path("/tmp/try_world_cup/matches.json")
+    return BUNDLED_CACHE_FILE
 
 
 def _ttl_seconds():
@@ -25,15 +34,18 @@ def _now_iso():
 
 
 def _read_cache():
-    if not CACHE_FILE.exists():
-        return None
-    with CACHE_FILE.open("r", encoding="utf-8") as file:
-        return json.load(file)
+    for cache_file in (_runtime_cache_file(), BUNDLED_CACHE_FILE):
+        if not cache_file.exists():
+            continue
+        with cache_file.open("r", encoding="utf-8") as file:
+            return json.load(file)
+    return None
 
 
 def _write_cache(data):
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-    with CACHE_FILE.open("w", encoding="utf-8") as file:
+    cache_file = _runtime_cache_file()
+    cache_file.parent.mkdir(parents=True, exist_ok=True)
+    with cache_file.open("w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
 
 
