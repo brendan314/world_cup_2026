@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>2026 World Cup Matches</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <div>
+          <h1>2026 World Cup Matches</h1>
+          <p class="meta">
+            {{ matches|length }} matches
+            · times shown in {{ metadata.display_timezone or "Europe/Dublin" }}
+            {% if metadata.refreshed_at %} · refreshed {{ metadata.refreshed_at }}{% endif %}
+          </p>
+        </div>
+        <a class="refresh" href="{{ url_for('refresh') }}">Refresh</a>
+      </header>
+
+      {% if error %}
+        <div class="notice">{{ error }}</div>
+      {% endif %}
+
+      <section class="filters" aria-label="Match filters">
+        <label>
+          <span>Search</span>
+          <input id="search" type="search" placeholder="Team, venue, stage">
+        </label>
+        <label>
+          <span>Stage</span>
+          <select id="stageFilter">
+            <option value="">All</option>
+            <option value="groups">Groups</option>
+            <option value="knockout">Knockout</option>
+            {% for stage in stages %}
+              <option value="{{ stage }}">{{ stage }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label>
+          <span>Group</span>
+          <select id="groupFilter">
+            <option value="">All</option>
+            {% for group in groups %}
+              <option value="{{ group }}">{{ group }}</option>
+            {% endfor %}
+          </select>
+        </label>
+        <label class="checkbox">
+          <input id="playedOnly" type="checkbox">
+          <span>Played only</span>
+        </label>
+      </section>
+
+      {% if not matches %}
+        <section class="empty">No match data available.</section>
+      {% else %}
+        <section class="match-list" id="matchList">
+          <div class="table-head" aria-hidden="true">
+            <span>Date</span>
+            <span>Time</span>
+            <span>Stage</span>
+            <span>Teams</span>
+            <span>Score</span>
+            <span>Venue</span>
+          </div>
+          {% for match in matches %}
+            <article
+              class="match-row"
+              data-search="{{ (match.date ~ ' ' ~ match.time ~ ' ' ~ match.stage ~ ' ' ~ match.team_1 ~ ' ' ~ match.team_2 ~ ' ' ~ match.venue)|lower }}"
+              data-stage="{{ match.stage }}"
+              data-status="{{ match.status }}"
+              data-winner="{{ match.winner }}"
+            >
+              <div class="cell date" data-label="Date">{{ match.date }}</div>
+              <div class="cell time" data-label="Time">{{ match.time }}</div>
+              <div class="cell stage" data-label="Stage">{{ match.stage }}</div>
+              <div class="cell teams" data-label="Teams">
+                <div class="teams-wrap">
+                  <span class="{% if match.winner == 'team_1' %}winner{% endif %}">{{ match.team_1 }}</span>
+                  <span class="versus">vs</span>
+                  <span class="{% if match.winner == 'team_2' %}winner{% endif %}">{{ match.team_2 }}</span>
+                </div>
+              </div>
+              <div class="cell score" data-label="Score">
+                {% if match.score %}{{ match.score }}{% else %}<span class="muted">-</span>{% endif %}
+              </div>
+              <div class="cell venue" data-label="Venue">{{ match.venue }}</div>
+            </article>
+          {% endfor %}
+        </section>
+      {% endif %}
+    </main>
+    <script>
+      const search = document.getElementById("search");
+      const stageFilter = document.getElementById("stageFilter");
+      const groupFilter = document.getElementById("groupFilter");
+      const playedOnly = document.getElementById("playedOnly");
+      const rows = Array.from(document.querySelectorAll(".match-row"));
+
+      function applyFilters() {
+        const query = search.value.trim().toLowerCase();
+        const stage = stageFilter.value;
+        const group = groupFilter.value;
+        const onlyPlayed = playedOnly.checked;
+
+        rows.forEach((row) => {
+          const rowStage = row.dataset.stage;
+          const isGroup = rowStage.startsWith("Group ");
+          const matchesSearch = !query || row.dataset.search.includes(query);
+          const matchesStage =
+            !stage ||
+            rowStage === stage ||
+            (stage === "groups" && isGroup) ||
+            (stage === "knockout" && !isGroup);
+          const matchesGroup = !group || rowStage === group;
+          const matchesStatus = !onlyPlayed || row.dataset.status === "played";
+
+          row.hidden = !(matchesSearch && matchesStage && matchesGroup && matchesStatus);
+        });
+      }
+
+      [search, stageFilter, groupFilter, playedOnly].forEach((input) => {
+        input.addEventListener("input", applyFilters);
+        input.addEventListener("change", applyFilters);
+      });
+    </script>
+  </body>
+</html>
