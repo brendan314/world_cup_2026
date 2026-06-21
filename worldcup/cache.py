@@ -3,6 +3,7 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
+from worldcup.normalize import enrich_matches
 from worldcup.scrape import SOURCE_URL, scrape_matches
 
 
@@ -38,7 +39,9 @@ def _read_cache():
         if not cache_file.exists():
             continue
         with cache_file.open("r", encoding="utf-8") as file:
-            return json.load(file)
+            data = json.load(file)
+            data["matches"] = enrich_matches(data.get("matches", []))
+            return data
     return None
 
 

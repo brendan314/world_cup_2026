@@ -25,6 +25,25 @@ TIME_RE = re.compile(
     re.IGNORECASE,
 )
 
+VENUE_COUNTRIES = {
+    "Arlington": "United States",
+    "Atlanta": "United States",
+    "East Rutherford": "United States",
+    "Foxborough": "United States",
+    "Guadalupe": "Mexico",
+    "Houston": "United States",
+    "Inglewood": "United States",
+    "Kansas City": "United States",
+    "Mexico City": "Mexico",
+    "Miami Gardens": "United States",
+    "Philadelphia": "United States",
+    "Santa Clara": "United States",
+    "Seattle": "United States",
+    "Toronto": "Canada",
+    "Vancouver": "Canada",
+    "Zapopan": "Mexico",
+}
+
 
 def clean_text(value):
     if not value:
@@ -106,3 +125,26 @@ def convert_to_timezone(date_value, time_value, timezone_name="Europe/Dublin"):
 
 def sort_key(match):
     return (match.get("date") or "", match.get("time") or "", match.get("team_1") or "")
+
+
+def venue_location(venue):
+    venue = clean_text(venue)
+    if not venue or "," not in venue:
+        return {"city": "", "country": "", "display": venue}
+
+    city = clean_text(venue.rsplit(",", 1)[-1])
+    country = VENUE_COUNTRIES.get(city, "")
+    display = f"{venue}, {country}" if country else venue
+    return {"city": city, "country": country, "display": display}
+
+
+def enrich_match(match):
+    location = venue_location(match.get("venue", ""))
+    match["venue_city"] = location["city"]
+    match["venue_country"] = location["country"]
+    match["venue_display"] = location["display"]
+    return match
+
+
+def enrich_matches(matches):
+    return [enrich_match(match) for match in matches]

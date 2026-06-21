@@ -5,6 +5,7 @@ from worldcup.normalize import (
     normalize_date,
     normalize_score,
     status_from_score,
+    venue_location,
     winner_from_score,
 )
 
@@ -34,6 +35,13 @@ class NormalizeTest(unittest.TestCase):
         self.assertEqual(converted["date"], "2026-06-11")
         self.assertEqual(converted["time"], "20:00")
         self.assertEqual(converted["timezone_note"], "Europe/Dublin")
+
+    def test_venue_location_adds_country(self):
+        location = venue_location("Estadio Azteca, Mexico City")
+
+        self.assertEqual(location["city"], "Mexico City")
+        self.assertEqual(location["country"], "Mexico")
+        self.assertEqual(location["display"], "Estadio Azteca, Mexico City, Mexico")
 
 
 if __name__ == "__main__":

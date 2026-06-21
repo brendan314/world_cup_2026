@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 from worldcup.normalize import (
     clean_text,
     convert_to_timezone,
+    enrich_match,
     normalize_date,
     normalize_score,
     sort_key,
@@ -80,22 +81,24 @@ def parse_matches(html, source_url=SOURCE_URL):
             continue
 
         matches.append(
-            {
-                "date": display_time["date"],
-                "time": display_time["time"],
-                "timezone_note": display_time["timezone_note"],
-                "source_date": source_date,
-                "source_time": source_time,
-                "stage": stage,
-                "team_1": team_1,
-                "team_2": team_2,
-                "score": score,
-                "venue": venue,
-                "status": status_from_score(score),
-                "winner": winner_from_score(score),
-                "match_number": _match_number(score_cell),
-                "source_url": source_url,
-            }
+            enrich_match(
+                {
+                    "date": display_time["date"],
+                    "time": display_time["time"],
+                    "timezone_note": display_time["timezone_note"],
+                    "source_date": source_date,
+                    "source_time": source_time,
+                    "stage": stage,
+                    "team_1": team_1,
+                    "team_2": team_2,
+                    "score": score,
+                    "venue": venue,
+                    "status": status_from_score(score),
+                    "winner": winner_from_score(score),
+                    "match_number": _match_number(score_cell),
+                    "source_url": source_url,
+                }
+            )
         )
 
     return sorted(matches, key=sort_key)

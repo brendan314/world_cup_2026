@@ -45,9 +45,11 @@ class ScrapeTest(unittest.TestCase):
         self.assertEqual(matches[0]["score"], "2-0")
         self.assertEqual(matches[0]["status"], "played")
         self.assertEqual(matches[0]["winner"], "team_1")
+        self.assertEqual(matches[0]["venue_display"], "Mexico City Stadium, Mexico City, Mexico")
         self.assertEqual(matches[1]["stage"], "Round of 32")
         self.assertEqual(matches[1]["match_number"], 73)
         self.assertEqual(matches[1]["status"], "scheduled")
+        self.assertEqual(matches[1]["venue_country"], "United States")
 
 
 if __name__ == "__main__":

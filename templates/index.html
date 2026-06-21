@@ -70,7 +70,7 @@
           {% for match in matches %}
             <article
               class="match-row"
-              data-search="{{ (match.date ~ ' ' ~ match.time ~ ' ' ~ match.stage ~ ' ' ~ match.team_1 ~ ' ' ~ match.team_2 ~ ' ' ~ match.venue)|lower }}"
+              data-search="{{ (match.date ~ ' ' ~ match.time ~ ' ' ~ match.stage ~ ' ' ~ match.team_1 ~ ' ' ~ match.team_2 ~ ' ' ~ (match.venue_display or match.venue))|lower }}"
               data-stage="{{ match.stage }}"
               data-status="{{ match.status }}"
               data-winner="{{ match.winner }}"
@@ -88,7 +88,7 @@
               <div class="cell score" data-label="Score">
                 {% if match.score %}{{ match.score }}{% else %}<span class="muted">-</span>{% endif %}
               </div>
-              <div class="cell venue" data-label="Venue">{{ match.venue }}</div>
+              <div class="cell venue" data-label="Venue">{{ match.venue_display or match.venue }}</div>
             </article>
           {% endfor %}
         </section>

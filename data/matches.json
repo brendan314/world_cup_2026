@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
-    "refreshed_at": "2026-06-17T21:09:47+00:00",
+    "refreshed_at": "2026-06-21T21:40:29+00:00",
     "match_count": 104,
     "display_timezone": "Europe/Dublin"
   },
@@ -20,7 +20,10 @@
       "status": "played",
       "winner": "team_1",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Mexico City",
+      "venue_country": "Mexico",
+      "venue_display": "Estadio Azteca, Mexico City, Mexico"
     },
     {
       "date": "2026-06-12",
@@ -36,7 +39,10 @@
       "status": "played",
       "winner": "team_1",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Zapopan",
+      "venue_country": "Mexico",
+      "venue_display": "Estadio Akron, Zapopan, Mexico"
     },
     {
       "date": "2026-06-12",
@@ -52,7 +58,10 @@
       "status": "played",
       "winner": "draw",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Toronto",
+      "venue_country": "Canada",
+      "venue_display": "BMO Field, Toronto, Canada"
     },
     {
       "date": "2026-06-13",
@@ -68,7 +77,10 @@
       "status": "played",
       "winner": "team_1",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Inglewood",
+      "venue_country": "United States",
+      "venue_display": "SoFi Stadium, Inglewood, United States"
     },
     {
       "date": "2026-06-13",
@@ -84,7 +96,10 @@
       "status": "played",
       "winner": "draw",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Santa Clara",
+      "venue_country": "United States",
+      "venue_display": "Levi's Stadium, Santa Clara, United States"
     },
     {
       "date": "2026-06-13",
@@ -100,7 +115,10 @@
       "status": "played",
       "winner": "draw",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "East Rutherford",
+      "venue_country": "United States",
+      "venue_display": "MetLife Stadium, East Rutherford, United States"
     },
     {
       "date": "2026-06-14",
@@ -116,7 +134,10 @@
       "status": "played",
       "winner": "team_2",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Foxborough",
+      "venue_country": "United States",
+      "venue_display": "Gillette Stadium, Foxborough, United States"
     },
     {
       "date": "2026-06-14",
@@ -132,7 +153,10 @@
       "status": "played",
       "winner": "team_1",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Vancouver",
+      "venue_country": "Canada",
+      "venue_display": "BC Place, Vancouver, Canada"
     },
     {
       "date": "2026-06-14",
@@ -148,7 +172,10 @@
       "status": "played",
       "winner": "team_1",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Houston",
+      "venue_country": "United States",
+      "venue_display": "NRG Stadium, Houston, United States"
     },
     {
       "date": "2026-06-14",
@@ -164,7 +191,10 @@
       "status": "played",
       "winner": "draw",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Arlington",
+      "venue_country": "United States",
+      "venue_display": "AT&T Stadium, Arlington, United States"
     },
     {
       "date": "2026-06-15",
@@ -180,7 +210,10 @@
       "status": "played",
       "winner": "team_1",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Philadelphia",
+      "venue_country": "United States",
+      "venue_display": "Lincoln Financial Field, Philadelphia, United States"
     },
     {
       "date": "2026-06-15",
@@ -196,7 +229,10 @@
       "status": "played",
       "winner": "team_1",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Guadalupe",
+      "venue_country": "Mexico",
+      "venue_display": "Estadio BBVA, Guadalupe, Mexico"
     },
     {
       "date": "2026-06-15",
@@ -212,7 +248,10 @@
       "status": "played",
       "winner": "draw",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Atlanta",
+      "venue_country": "United States",
+      "venue_display": "Mercedes-Benz Stadium, Atlanta, United States"
     },
     {
       "date": "2026-06-15",
@@ -228,7 +267,10 @@
       "status": "played",
       "winner": "draw",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Seattle",
+      "venue_country": "United States",
+      "venue_display": "Lumen Field, Seattle, United States"
     },
     {
       "date": "2026-06-15",
@@ -244,7 +286,10 @@
       "status": "played",
       "winner": "draw",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Miami Gardens",
+      "venue_country": "United States",
+      "venue_display": "Hard Rock Stadium, Miami Gardens, United States"
     },
     {
       "date": "2026-06-16",
@@ -260,7 +305,10 @@
       "status": "played",
       "winner": "draw",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Inglewood",
+      "venue_country": "United States",
+      "venue_display": "SoFi Stadium, Inglewood, United States"
     },
     {
       "date": "2026-06-16",
@@ -276,7 +324,10 @@
       "status": "played",
       "winner": "team_1",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "East Rutherford",
+      "venue_country": "United States",
+      "venue_display": "MetLife Stadium, East Rutherford, United States"
     },
     {
       "date": "2026-06-16",
@@ -292,7 +343,10 @@
       "status": "played",
       "winner": "team_2",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Foxborough",
+      "venue_country": "United States",
+      "venue_display": "Gillette Stadium, Foxborough, United States"
     },
     {
       "date": "2026-06-17",
@@ -308,7 +362,10 @@
       "status": "played",
       "winner": "team_1",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Kansas City",
+      "venue_country": "United States",
+      "venue_display": "Arrowhead Stadium, Kansas City, United States"
     },
     {
       "date": "2026-06-17",
@@ -324,7 +381,10 @@
       "status": "played",
       "winner": "team_1",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Santa Clara",
+      "venue_country": "United States",
+      "venue_display": "Levi's Stadium, Santa Clara, United States"
     },
     {
       "date": "2026-06-17",
@@ -340,7 +400,10 @@
       "status": "played",
       "winner": "draw",
       "match_number": null,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Houston",
+      "venue_country": "United States",
+      "venue_display": "NRG Stadium, Houston, United States"
     },
     {
       "date": "2026-06-17",
@@ -351,12 +414,15 @@
       "stage": "Group L",
       "team_1": "England",
       "team_2": "Croatia",
-      "score": "",
+      "score": "4-2",
       "venue": "AT&T Stadium, Arlington",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 22,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "team_1",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Arlington",
+      "venue_country": "United States",
+      "venue_display": "AT&T Stadium, Arlington, United States"
     },
     {
       "date": "2026-06-18",
@@ -367,12 +433,15 @@
       "stage": "Group L",
       "team_1": "Ghana",
       "team_2": "Panama",
-      "score": "",
+      "score": "1-0",
       "venue": "BMO Field, Toronto",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 21,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "team_1",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Toronto",
+      "venue_country": "Canada",
+      "venue_display": "BMO Field, Toronto, Canada"
     },
     {
       "date": "2026-06-18",
@@ -383,12 +452,15 @@
       "stage": "Group K",
       "team_1": "Uzbekistan",
       "team_2": "Colombia",
-      "score": "",
+      "score": "1-3",
       "venue": "Estadio Azteca, Mexico City",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 24,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "team_2",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Mexico City",
+      "venue_country": "Mexico",
+      "venue_display": "Estadio Azteca, Mexico City, Mexico"
     },
     {
       "date": "2026-06-18",
@@ -399,12 +471,15 @@
       "stage": "Group A",
       "team_1": "Czech Republic",
       "team_2": "South Africa",
-      "score": "",
+      "score": "1-1",
       "venue": "Mercedes-Benz Stadium, Atlanta",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 25,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "draw",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Atlanta",
+      "venue_country": "United States",
+      "venue_display": "Mercedes-Benz Stadium, Atlanta, United States"
     },
     {
       "date": "2026-06-18",
@@ -415,12 +490,15 @@
       "stage": "Group B",
       "team_1": "Switzerland",
       "team_2": "Bosnia and Herzegovina",
-      "score": "",
+      "score": "4-1",
       "venue": "SoFi Stadium, Inglewood",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 26,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "team_1",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Inglewood",
+      "venue_country": "United States",
+      "venue_display": "SoFi Stadium, Inglewood, United States"
     },
     {
       "date": "2026-06-18",
@@ -431,12 +509,15 @@
       "stage": "Group B",
       "team_1": "Canada",
       "team_2": "Qatar",
-      "score": "",
+      "score": "6-0",
       "venue": "BC Place, Vancouver",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 27,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "team_1",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Vancouver",
+      "venue_country": "Canada",
+      "venue_display": "BC Place, Vancouver, Canada"
     },
     {
       "date": "2026-06-19",
@@ -447,12 +528,15 @@
       "stage": "Group A",
       "team_1": "Mexico",
       "team_2": "South Korea",
-      "score": "",
+      "score": "1-0",
       "venue": "Estadio Akron, Zapopan",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 28,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "team_1",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Zapopan",
+      "venue_country": "Mexico",
+      "venue_display": "Estadio Akron, Zapopan, Mexico"
     },
     {
       "date": "2026-06-19",
@@ -463,12 +547,15 @@
       "stage": "Group D",
       "team_1": "United States",
       "team_2": "Australia",
-      "score": "",
+      "score": "2-0",
       "venue": "Lumen Field, Seattle",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 32,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "team_1",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Seattle",
+      "venue_country": "United States",
+      "venue_display": "Lumen Field, Seattle, United States"
     },
     {
       "date": "2026-06-19",
@@ -479,12 +566,15 @@
       "stage": "Group C",
       "team_1": "Scotland",
       "team_2": "Morocco",
-      "score": "",
+      "score": "0-1",
       "venue": "Gillette Stadium, Foxborough",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 30,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "team_2",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Foxborough",
+      "venue_country": "United States",
+      "venue_display": "Gillette Stadium, Foxborough, United States"
     },
     {
       "date": "2026-06-20",
@@ -495,12 +585,15 @@
       "stage": "Group C",
       "team_1": "Brazil",
       "team_2": "Haiti",
-      "score": "",
+      "score": "3-0",
       "venue": "Lincoln Financial Field, Philadelphia",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 29,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "team_1",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Philadelphia",
+      "venue_country": "United States",
+      "venue_display": "Lincoln Financial Field, Philadelphia, United States"
     },
     {
       "date": "2026-06-20",
@@ -511,12 +604,15 @@
       "stage": "Group D",
       "team_1": "Turkey",
       "team_2": "Paraguay",
-      "score": "",
+      "score": "0-1",
       "venue": "Levi's Stadium, Santa Clara",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 31,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "team_2",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Santa Clara",
+      "venue_country": "United States",
+      "venue_display": "Levi's Stadium, Santa Clara, United States"
     },
     {
       "date": "2026-06-20",
@@ -527,12 +623,15 @@
       "stage": "Group F",
       "team_1": "Netherlands",
       "team_2": "Sweden",
-      "score": "",
+      "score": "5-1",
       "venue": "NRG Stadium, Houston",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 35,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "team_1",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Houston",
+      "venue_country": "United States",
+      "venue_display": "NRG Stadium, Houston, United States"
     },
     {
       "date": "2026-06-20",
@@ -543,12 +642,15 @@
       "stage": "Group E",
       "team_1": "Germany",
       "team_2": "Ivory Coast",
-      "score": "",
+      "score": "2-1",
       "venue": "BMO Field, Toronto",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 33,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "team_1",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Toronto",
+      "venue_country": "Canada",
+      "venue_display": "BMO Field, Toronto, Canada"
     },
     {
       "date": "2026-06-21",
@@ -559,12 +661,15 @@
       "stage": "Group E",
       "team_1": "Ecuador",
       "team_2": "Curaçao",
-      "score": "",
+      "score": "0-0",
       "venue": "Arrowhead Stadium, Kansas City",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 34,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "draw",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Kansas City",
+      "venue_country": "United States",
+      "venue_display": "Arrowhead Stadium, Kansas City, United States"
     },
     {
       "date": "2026-06-21",
@@ -575,12 +680,15 @@
       "stage": "Group F",
       "team_1": "Tunisia",
       "team_2": "Japan",
-      "score": "",
+      "score": "0-4",
       "venue": "Estadio BBVA, Guadalupe",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 36,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "team_2",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Guadalupe",
+      "venue_country": "Mexico",
+      "venue_display": "Estadio BBVA, Guadalupe, Mexico"
     },
     {
       "date": "2026-06-21",
@@ -591,12 +699,15 @@
       "stage": "Group H",
       "team_1": "Spain",
       "team_2": "Saudi Arabia",
-      "score": "",
+      "score": "4-0",
       "venue": "Mercedes-Benz Stadium, Atlanta",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 38,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "team_1",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Atlanta",
+      "venue_country": "United States",
+      "venue_display": "Mercedes-Benz Stadium, Atlanta, United States"
     },
     {
       "date": "2026-06-21",
@@ -607,12 +718,15 @@
       "stage": "Group G",
       "team_1": "Belgium",
       "team_2": "Iran",
-      "score": "",
+      "score": "0-0",
       "venue": "SoFi Stadium, Inglewood",
-      "status": "scheduled",
-      "winner": "",
-      "match_number": 39,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "status": "played",
+      "winner": "draw",
+      "match_number": null,
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Inglewood",
+      "venue_country": "United States",
+      "venue_display": "SoFi Stadium, Inglewood, United States"
     },
     {
       "date": "2026-06-21",
@@ -628,7 +742,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 37,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Miami Gardens",
+      "venue_country": "United States",
+      "venue_display": "Hard Rock Stadium, Miami Gardens, United States"
     },
     {
       "date": "2026-06-22",
@@ -644,7 +761,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 40,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Vancouver",
+      "venue_country": "Canada",
+      "venue_display": "BC Place, Vancouver, Canada"
     },
     {
       "date": "2026-06-22",
@@ -660,7 +780,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 43,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Arlington",
+      "venue_country": "United States",
+      "venue_display": "AT&T Stadium, Arlington, United States"
     },
     {
       "date": "2026-06-22",
@@ -676,7 +799,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 42,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Philadelphia",
+      "venue_country": "United States",
+      "venue_display": "Lincoln Financial Field, Philadelphia, United States"
     },
     {
       "date": "2026-06-23",
@@ -692,7 +818,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 41,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "East Rutherford",
+      "venue_country": "United States",
+      "venue_display": "MetLife Stadium, East Rutherford, United States"
     },
     {
       "date": "2026-06-23",
@@ -708,7 +837,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 44,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Santa Clara",
+      "venue_country": "United States",
+      "venue_display": "Levi's Stadium, Santa Clara, United States"
     },
     {
       "date": "2026-06-23",
@@ -724,7 +856,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 47,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Houston",
+      "venue_country": "United States",
+      "venue_display": "NRG Stadium, Houston, United States"
     },
     {
       "date": "2026-06-23",
@@ -740,7 +875,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 45,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Foxborough",
+      "venue_country": "United States",
+      "venue_display": "Gillette Stadium, Foxborough, United States"
     },
     {
       "date": "2026-06-24",
@@ -756,7 +894,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 46,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Toronto",
+      "venue_country": "Canada",
+      "venue_display": "BMO Field, Toronto, Canada"
     },
     {
       "date": "2026-06-24",
@@ -772,7 +913,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 48,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Zapopan",
+      "venue_country": "Mexico",
+      "venue_display": "Estadio Akron, Zapopan, Mexico"
     },
     {
       "date": "2026-06-24",
@@ -788,7 +932,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 52,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Seattle",
+      "venue_country": "United States",
+      "venue_display": "Lumen Field, Seattle, United States"
     },
     {
       "date": "2026-06-24",
@@ -804,7 +951,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 51,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Vancouver",
+      "venue_country": "Canada",
+      "venue_display": "BC Place, Vancouver, Canada"
     },
     {
       "date": "2026-06-24",
@@ -820,7 +970,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 50,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Atlanta",
+      "venue_country": "United States",
+      "venue_display": "Mercedes-Benz Stadium, Atlanta, United States"
     },
     {
       "date": "2026-06-24",
@@ -836,7 +989,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 49,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Miami Gardens",
+      "venue_country": "United States",
+      "venue_display": "Hard Rock Stadium, Miami Gardens, United States"
     },
     {
       "date": "2026-06-25",
@@ -852,7 +1008,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 53,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Mexico City",
+      "venue_country": "Mexico",
+      "venue_display": "Estadio Azteca, Mexico City, Mexico"
     },
     {
       "date": "2026-06-25",
@@ -868,7 +1027,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 54,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Guadalupe",
+      "venue_country": "Mexico",
+      "venue_display": "Estadio BBVA, Guadalupe, Mexico"
     },
     {
       "date": "2026-06-25",
@@ -884,7 +1046,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 55,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Philadelphia",
+      "venue_country": "United States",
+      "venue_display": "Lincoln Financial Field, Philadelphia, United States"
     },
     {
       "date": "2026-06-25",
@@ -900,7 +1065,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 56,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "East Rutherford",
+      "venue_country": "United States",
+      "venue_display": "MetLife Stadium, East Rutherford, United States"
     },
     {
       "date": "2026-06-26",
@@ -916,7 +1084,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 57,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Arlington",
+      "venue_country": "United States",
+      "venue_display": "AT&T Stadium, Arlington, United States"
     },
     {
       "date": "2026-06-26",
@@ -932,7 +1103,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 58,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Kansas City",
+      "venue_country": "United States",
+      "venue_display": "Arrowhead Stadium, Kansas City, United States"
     },
     {
       "date": "2026-06-26",
@@ -948,7 +1122,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 60,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Santa Clara",
+      "venue_country": "United States",
+      "venue_display": "Levi's Stadium, Santa Clara, United States"
     },
     {
       "date": "2026-06-26",
@@ -964,7 +1141,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 59,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Inglewood",
+      "venue_country": "United States",
+      "venue_display": "SoFi Stadium, Inglewood, United States"
     },
     {
       "date": "2026-06-26",
@@ -980,7 +1160,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 61,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Foxborough",
+      "venue_country": "United States",
+      "venue_display": "Gillette Stadium, Foxborough, United States"
     },
     {
       "date": "2026-06-26",
@@ -996,7 +1179,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 62,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Toronto",
+      "venue_country": "Canada",
+      "venue_display": "BMO Field, Toronto, Canada"
     },
     {
       "date": "2026-06-27",
@@ -1012,7 +1198,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 65,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Houston",
+      "venue_country": "United States",
+      "venue_display": "NRG Stadium, Houston, United States"
     },
     {
       "date": "2026-06-27",
@@ -1028,7 +1217,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 66,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Zapopan",
+      "venue_country": "Mexico",
+      "venue_display": "Estadio Akron, Zapopan, Mexico"
     },
     {
       "date": "2026-06-27",
@@ -1044,7 +1236,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 63,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Seattle",
+      "venue_country": "United States",
+      "venue_display": "Lumen Field, Seattle, United States"
     },
     {
       "date": "2026-06-27",
@@ -1060,7 +1255,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 64,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Vancouver",
+      "venue_country": "Canada",
+      "venue_display": "BC Place, Vancouver, Canada"
     },
     {
       "date": "2026-06-27",
@@ -1076,7 +1274,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 68,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Philadelphia",
+      "venue_country": "United States",
+      "venue_display": "Lincoln Financial Field, Philadelphia, United States"
     },
     {
       "date": "2026-06-27",
@@ -1092,7 +1293,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 67,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "East Rutherford",
+      "venue_country": "United States",
+      "venue_display": "MetLife Stadium, East Rutherford, United States"
     },
     {
       "date": "2026-06-28",
@@ -1108,7 +1312,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 71,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Miami Gardens",
+      "venue_country": "United States",
+      "venue_display": "Hard Rock Stadium, Miami Gardens, United States"
     },
     {
       "date": "2026-06-28",
@@ -1124,7 +1331,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 72,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Atlanta",
+      "venue_country": "United States",
+      "venue_display": "Mercedes-Benz Stadium, Atlanta, United States"
     },
     {
       "date": "2026-06-28",
@@ -1140,7 +1350,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 69,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Kansas City",
+      "venue_country": "United States",
+      "venue_display": "Arrowhead Stadium, Kansas City, United States"
     },
     {
       "date": "2026-06-28",
@@ -1156,7 +1369,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 70,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Arlington",
+      "venue_country": "United States",
+      "venue_display": "AT&T Stadium, Arlington, United States"
     },
     {
       "date": "2026-06-28",
@@ -1172,7 +1388,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 73,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Inglewood",
+      "venue_country": "United States",
+      "venue_display": "SoFi Stadium, Inglewood, United States"
     },
     {
       "date": "2026-06-29",
@@ -1188,7 +1407,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 76,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Houston",
+      "venue_country": "United States",
+      "venue_display": "NRG Stadium, Houston, United States"
     },
     {
       "date": "2026-06-29",
@@ -1197,14 +1419,17 @@
       "source_date": "2026-06-29",
       "source_time": "4:30 p.m. UTC−4",
       "stage": "Round of 32",
-      "team_1": "Winner Group E",
+      "team_1": "Germany",
       "team_2": "3rd Group A/B/C/D/F",
       "score": "",
       "venue": "Gillette Stadium, Foxborough",
       "status": "scheduled",
       "winner": "",
       "match_number": 74,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Foxborough",
+      "venue_country": "United States",
+      "venue_display": "Gillette Stadium, Foxborough, United States"
     },
     {
       "date": "2026-06-30",
@@ -1220,7 +1445,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 75,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Guadalupe",
+      "venue_country": "Mexico",
+      "venue_display": "Estadio BBVA, Guadalupe, Mexico"
     },
     {
       "date": "2026-06-30",
@@ -1236,7 +1464,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 78,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Arlington",
+      "venue_country": "United States",
+      "venue_display": "AT&T Stadium, Arlington, United States"
     },
     {
       "date": "2026-06-30",
@@ -1252,7 +1483,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 77,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "East Rutherford",
+      "venue_country": "United States",
+      "venue_display": "MetLife Stadium, East Rutherford, United States"
     },
     {
       "date": "2026-07-01",
@@ -1261,14 +1495,17 @@
       "source_date": "2026-06-30",
       "source_time": "7:00 p.m. UTC−6",
       "stage": "Round of 32",
-      "team_1": "Winner Group A",
+      "team_1": "Mexico",
       "team_2": "3rd Group C/E/F/H/I",
       "score": "",
       "venue": "Estadio Azteca, Mexico City",
       "status": "scheduled",
       "winner": "",
       "match_number": 79,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Mexico City",
+      "venue_country": "Mexico",
+      "venue_display": "Estadio Azteca, Mexico City, Mexico"
     },
     {
       "date": "2026-07-01",
@@ -1284,7 +1521,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 80,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Atlanta",
+      "venue_country": "United States",
+      "venue_display": "Mercedes-Benz Stadium, Atlanta, United States"
     },
     {
       "date": "2026-07-01",
@@ -1300,7 +1540,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 82,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Seattle",
+      "venue_country": "United States",
+      "venue_display": "Lumen Field, Seattle, United States"
     },
     {
       "date": "2026-07-02",
@@ -1309,14 +1552,17 @@
       "source_date": "2026-07-01",
       "source_time": "5:00 p.m. UTC−7",
       "stage": "Round of 32",
-      "team_1": "Winner Group D",
+      "team_1": "United States",
       "team_2": "3rd Group B/E/F/I/J",
       "score": "",
       "venue": "Levi's Stadium, Santa Clara",
       "status": "scheduled",
       "winner": "",
       "match_number": 81,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Santa Clara",
+      "venue_country": "United States",
+      "venue_display": "Levi's Stadium, Santa Clara, United States"
     },
     {
       "date": "2026-07-02",
@@ -1332,7 +1578,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 84,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Inglewood",
+      "venue_country": "United States",
+      "venue_display": "SoFi Stadium, Inglewood, United States"
     },
     {
       "date": "2026-07-03",
@@ -1348,7 +1597,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 83,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Toronto",
+      "venue_country": "Canada",
+      "venue_display": "BMO Field, Toronto, Canada"
     },
     {
       "date": "2026-07-03",
@@ -1364,7 +1616,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 85,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Vancouver",
+      "venue_country": "Canada",
+      "venue_display": "BC Place, Vancouver, Canada"
     },
     {
       "date": "2026-07-03",
@@ -1380,7 +1635,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 88,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Arlington",
+      "venue_country": "United States",
+      "venue_display": "AT&T Stadium, Arlington, United States"
     },
     {
       "date": "2026-07-03",
@@ -1396,7 +1654,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 86,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Miami Gardens",
+      "venue_country": "United States",
+      "venue_display": "Hard Rock Stadium, Miami Gardens, United States"
     },
     {
       "date": "2026-07-04",
@@ -1412,7 +1673,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 87,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Kansas City",
+      "venue_country": "United States",
+      "venue_display": "Arrowhead Stadium, Kansas City, United States"
     },
     {
       "date": "2026-07-04",
@@ -1428,7 +1692,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 90,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Houston",
+      "venue_country": "United States",
+      "venue_display": "NRG Stadium, Houston, United States"
     },
     {
       "date": "2026-07-04",
@@ -1444,7 +1711,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 89,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Philadelphia",
+      "venue_country": "United States",
+      "venue_display": "Lincoln Financial Field, Philadelphia, United States"
     },
     {
       "date": "2026-07-05",
@@ -1460,7 +1730,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 91,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "East Rutherford",
+      "venue_country": "United States",
+      "venue_display": "MetLife Stadium, East Rutherford, United States"
     },
     {
       "date": "2026-07-06",
@@ -1476,7 +1749,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 92,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Mexico City",
+      "venue_country": "Mexico",
+      "venue_display": "Estadio Azteca, Mexico City, Mexico"
     },
     {
       "date": "2026-07-06",
@@ -1492,7 +1768,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 93,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Arlington",
+      "venue_country": "United States",
+      "venue_display": "AT&T Stadium, Arlington, United States"
     },
     {
       "date": "2026-07-07",
@@ -1508,7 +1787,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 94,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Seattle",
+      "venue_country": "United States",
+      "venue_display": "Lumen Field, Seattle, United States"
     },
     {
       "date": "2026-07-07",
@@ -1524,7 +1806,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 95,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Atlanta",
+      "venue_country": "United States",
+      "venue_display": "Mercedes-Benz Stadium, Atlanta, United States"
     },
     {
       "date": "2026-07-07",
@@ -1540,7 +1825,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 96,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Vancouver",
+      "venue_country": "Canada",
+      "venue_display": "BC Place, Vancouver, Canada"
     },
     {
       "date": "2026-07-09",
@@ -1556,7 +1844,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 97,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Foxborough",
+      "venue_country": "United States",
+      "venue_display": "Gillette Stadium, Foxborough, United States"
     },
     {
       "date": "2026-07-10",
@@ -1572,7 +1863,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 98,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Inglewood",
+      "venue_country": "United States",
+      "venue_display": "SoFi Stadium, Inglewood, United States"
     },
     {
       "date": "2026-07-11",
@@ -1588,7 +1882,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 99,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Miami Gardens",
+      "venue_country": "United States",
+      "venue_display": "Hard Rock Stadium, Miami Gardens, United States"
     },
     {
       "date": "2026-07-12",
@@ -1604,7 +1901,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 100,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Kansas City",
+      "venue_country": "United States",
+      "venue_display": "Arrowhead Stadium, Kansas City, United States"
     },
     {
       "date": "2026-07-14",
@@ -1620,7 +1920,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 101,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Arlington",
+      "venue_country": "United States",
+      "venue_display": "AT&T Stadium, Arlington, United States"
     },
     {
       "date": "2026-07-15",
@@ -1636,7 +1939,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 102,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Atlanta",
+      "venue_country": "United States",
+      "venue_display": "Mercedes-Benz Stadium, Atlanta, United States"
     },
     {
       "date": "2026-07-18",
@@ -1652,7 +1958,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 103,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "Miami Gardens",
+      "venue_country": "United States",
+      "venue_display": "Hard Rock Stadium, Miami Gardens, United States"
     },
     {
       "date": "2026-07-19",
@@ -1668,7 +1977,10 @@
       "status": "scheduled",
       "winner": "",
       "match_number": 104,
-      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "source_url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "venue_city": "East Rutherford",
+      "venue_country": "United States",
+      "venue_display": "MetLife Stadium, East Rutherford, United States"
     }
   ]
 }
