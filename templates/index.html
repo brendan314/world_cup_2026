@@ -129,8 +129,11 @@
         input.addEventListener("change", applyFilters);
       });
 
-      const nextMatch = document.querySelector("[data-next-match='true']");
+      const nextMatch =
+        document.querySelector("[data-next-match='true']") ||
+        rows.find((row) => row.dataset.status !== "played");
       if (nextMatch && !window.location.hash) {
+        nextMatch.classList.add("next-match");
         requestAnimationFrame(() => {
           nextMatch.scrollIntoView({ block: "center" });
         });
