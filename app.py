@@ -10,12 +10,17 @@ app = Flask(__name__)
 def index():
     data = get_match_data()
     matches = data.get("matches", [])
+    next_match_index = next(
+        (index for index, match in enumerate(matches) if match.get("status") != "played"),
+        None,
+    )
     stages = sorted({match["stage"] for match in matches if match.get("stage")})
     groups = [f"Group {letter}" for letter in "ABCDEFGHIJKL"]
 
     return render_template(
         "index.html",
         matches=matches,
+        next_match_index=next_match_index,
         metadata=data.get("metadata", {}),
         error=data.get("error"),
         stages=stages,

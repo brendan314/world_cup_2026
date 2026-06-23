@@ -172,6 +172,14 @@ h1 {
   border-left: 4px solid #16a34a;
 }
 
+.match-row.next-match {
+  border-left: 4px solid var(--accent);
+}
+
+.match-row.next-match .cell {
+  background: #ecfdf5;
+}
+
 .match-row[hidden] {
   display: none;
 }

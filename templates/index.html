@@ -69,7 +69,8 @@
           </div>
           {% for match in matches %}
             <article
-              class="match-row"
+              class="match-row{% if loop.index0 == next_match_index %} next-match{% endif %}"
+              {% if loop.index0 == next_match_index %}id="next-match" data-next-match="true"{% endif %}
               data-search="{{ (match.date ~ ' ' ~ match.time ~ ' ' ~ match.stage ~ ' ' ~ match.team_1 ~ ' ' ~ match.team_2 ~ ' ' ~ (match.venue_display or match.venue))|lower }}"
               data-stage="{{ match.stage }}"
               data-status="{{ match.status }}"
@@ -127,6 +128,13 @@
         input.addEventListener("input", applyFilters);
         input.addEventListener("change", applyFilters);
       });
+
+      const nextMatch = document.querySelector("[data-next-match='true']");
+      if (nextMatch && !window.location.hash) {
+        requestAnimationFrame(() => {
+          nextMatch.scrollIntoView({ block: "center" });
+        });
+      }
     </script>
   </body>
 </html>
