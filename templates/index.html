@@ -16,9 +16,19 @@
             · times shown in {{ metadata.display_timezone or "Europe/Dublin" }}
             {% if metadata.refreshed_at %} · refreshed {{ metadata.refreshed_at }}{% endif %}
           </p>
+          <p class="meta prediction-source">
+            Probable knockout teams use
+            <a href="{{ prediction_metadata.source_url }}">{{ prediction_metadata.source_name }}</a>
+            · {{ prediction_metadata.last_update }}
+          </p>
         </div>
         <a class="refresh" href="{{ url_for('refresh') }}">Refresh</a>
       </header>
+
+      <section class="prediction-note" aria-label="Prediction logic notes">
+        <strong>Probable teams</strong> are highlighted in amber. They use played results where available, then FIFA ranking for unresolved group and knockout places.
+        The best third-place mapping is approximate because FIFA assigns those slots based on which groups qualify.
+      </section>
 
       {% if error %}
         <div class="notice">{{ error }}</div>
@@ -81,9 +91,21 @@
               <div class="cell stage" data-label="Stage">{{ match.stage }}</div>
               <div class="cell teams" data-label="Teams">
                 <div class="teams-wrap">
-                  <span class="{% if match.winner == 'team_1' %}winner{% endif %}">{{ match.team_1 }}</span>
+                  {% set team_1_prediction = match.team_1_prediction or {"label": match.team_1, "probable": false} %}
+                  {% set team_2_prediction = match.team_2_prediction or {"label": match.team_2, "probable": false} %}
+                  <span class="team-name {% if match.winner == 'team_1' %}winner{% endif %}{% if team_1_prediction.probable %} probable-team{% endif %}">
+                    {{ team_1_prediction.label }}
+                    {% if team_1_prediction.probable %}
+                      <span class="seed-label">{{ match.team_1 }}</span>
+                    {% endif %}
+                  </span>
                   <span class="versus">vs</span>
-                  <span class="{% if match.winner == 'team_2' %}winner{% endif %}">{{ match.team_2 }}</span>
+                  <span class="team-name {% if match.winner == 'team_2' %}winner{% endif %}{% if team_2_prediction.probable %} probable-team{% endif %}">
+                    {{ team_2_prediction.label }}
+                    {% if team_2_prediction.probable %}
+                      <span class="seed-label">{{ match.team_2 }}</span>
+                    {% endif %}
+                  </span>
                 </div>
               </div>
               <div class="cell score" data-label="Score">

@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, redirect, render_template, request, url_for
 
 from worldcup.cache import get_match_data, refresh_match_data
+from worldcup.predict import enrich_predictions
 
 
 app = Flask(__name__)
@@ -9,7 +10,8 @@ app = Flask(__name__)
 @app.get("/")
 def index():
     data = get_match_data()
-    matches = data.get("matches", [])
+    prediction_data = enrich_predictions(data.get("matches", []))
+    matches = prediction_data["matches"]
     next_match_index = next(
         (index for index, match in enumerate(matches) if match.get("status") != "played"),
         None,
@@ -22,6 +24,7 @@ def index():
         matches=matches,
         next_match_index=next_match_index,
         metadata=data.get("metadata", {}),
+        prediction_metadata=prediction_data["prediction_metadata"],
         error=data.get("error"),
         stages=stages,
         groups=groups,

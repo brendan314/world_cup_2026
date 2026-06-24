@@ -9,6 +9,9 @@
   --accent-dark: #0b5f59;
   --warn-bg: #fff7dc;
   --warn-line: #ead38a;
+  --probable-bg: #fef3c7;
+  --probable-line: #d97706;
+  --probable-ink: #7c2d12;
 }
 
 * {
@@ -50,6 +53,15 @@ h1 {
   font-size: 0.95rem;
 }
 
+.meta a {
+  color: var(--accent-dark);
+  font-weight: 800;
+}
+
+.prediction-source {
+  font-size: 0.86rem;
+}
+
 .refresh {
   display: inline-flex;
   align-items: center;
@@ -70,12 +82,18 @@ h1 {
 }
 
 .notice,
-.empty {
+.empty,
+.prediction-note {
   margin-bottom: 16px;
   padding: 12px 14px;
   border: 1px solid var(--warn-line);
   border-radius: 6px;
   background: var(--warn-bg);
+}
+
+.prediction-note {
+  color: #4b3a12;
+  font-size: 0.92rem;
 }
 
 .filters {
@@ -196,6 +214,16 @@ h1 {
   align-items: center;
   gap: 8px;
   font-weight: 700;
+  min-width: 0;
+  flex-wrap: wrap;
+}
+
+.team-name {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .versus {
@@ -218,6 +246,22 @@ h1 {
   background: #dcfce7;
   color: #14532d;
   font-weight: 900;
+}
+
+.probable-team {
+  width: fit-content;
+  padding: 3px 7px;
+  border: 1px solid var(--probable-line);
+  border-radius: 5px;
+  background: var(--probable-bg);
+  color: var(--probable-ink);
+  font-weight: 900;
+}
+
+.seed-label {
+  color: #8a5a10;
+  font-size: 0.72rem;
+  font-weight: 800;
 }
 
 .stage {
